@@ -1,0 +1,5 @@
+kernel/core/*.o
+.vscode/
+tp*/*.elf
+tp*/*.o
+tp*/-*

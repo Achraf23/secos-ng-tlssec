@@ -5,13 +5,13 @@
 void bp_handler() {
    // TODO
    debug("bp_handler start:\n");
-   uint32_t val;
-   asm volatile("pusha\n");
-   asm volatile ("mov 4(%%ebp), %0":"=r"(val));
-   debug("val:0x%x\n",val);
-   asm volatile("popa\n");
-   asm volatile("leave\n");
-   asm volatile("iret\n");
+   // uint32_t val;
+   // asm volatile("pusha\n");
+   // asm volatile ("mov 4(%%ebp), %0":"=r"(val));
+   // debug("val:0x%x\n",val);
+   // asm volatile("popa\n");
+   // asm volatile("leave\n");
+   // asm volatile("iret\n"); 
 }
 
 void bp_trigger() {
